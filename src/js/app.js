@@ -58,7 +58,7 @@ function openForm(type,row=null){
   if(type==='course'){
     html=field('Course Name','name','text',row?.name||'')+
       field('Course Code','code','text',row?.code||'')+
-      field('Credit','credit','number',row?.credit??3,'min="1" max="10"')+
+      field('Credit','credit','number',row?.credit??3,'min="0.25" max="10" step="0.25"')+
       field('Instructor','instructor','text',row?.instructor||'');
   }else if(type==='routine'){
     const dayOpts=days.map(d=>`<option ${row?.day===d?'selected':''}>${d}</option>`).join('');
@@ -109,8 +109,8 @@ $('editorForm').addEventListener('submit',async e=>{
         instructor:data.instructor.trim()
       };
 
-      if(!item.name||!item.code||item.credit<1)
-        return message('Please enter valid course details.');
+     if(!item.name||!item.code||item.credit<=0||item.credit>10)
+    return message('Please enter valid course details.');
 
       if(editingId)await window.coursesAPI.editCourse(item);
       else await window.coursesAPI.addCourse(item);
