@@ -5,5 +5,61 @@
     "code": "CSE 2100",
     "credit": 0.75,
     "instructor": "Abdullah Al Asif & Iqramul Islam"
+  },
+  {
+    "id": "1794671210685",
+    "name": "Digital Logic Design",
+    "code": "CSE 2101",
+    "credit": 3,
+    "instructor": "Saad Ahmed"
+  },
+  {
+    "id": "1794671245087",
+    "name": "Digital Logic Design Sessional",
+    "code": "CSE 2102",
+    "credit": 1.5,
+    "instructor": "Saad Ahmed"
+  },
+  {
+    "id": "1794671287167",
+    "name": "Data Structures and Algorithm I",
+    "code": "CSE 2103",
+    "credit": 3,
+    "instructor": "Ananna Hoque Shathi"
+  },
+  {
+    "id": "1794671353169",
+    "name": "Data Structures and Algorithm I Sessional",
+    "code": "CSE 2104",
+    "credit": 1.5,
+    "instructor": "Ananna Hoque Shathi & Md. Mahadi Hasan"
+  },
+  {
+    "id": "1794671409197",
+    "name": "Applied Statistics for Computer Science",
+    "code": "CSE 2105",
+    "credit": 3,
+    "instructor": "Md. Osama"
+  },
+  {
+    "id": "1794671468563",
+    "name": "Object Oriented Programming Language II Sessional",
+    "code": "CSE 2108",
+    "credit": 1.5,
+    "instructor": "Abdullah Al Asif & S. M. Golam Rifat"
+  },
+  {
+    "id": "1794671524119",
+    "name": "Chemistry",
+    "code": "CHEM 2133",
+    "credit": 3,
+    "instructor": "Md. Nahid Parvez Roni"
+  },
+  {
+    "id": "1794671564423",
+    "name": "Vector Calculus, Linear Algebra and Complex Variable",
+    "code": "MATH 2145",
+    "credit": 3,
+    "instructor": "Most. Ummey Kulsum"
   }
 ]

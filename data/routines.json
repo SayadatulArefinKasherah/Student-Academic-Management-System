@@ -1,12 +1,192 @@
 [
   {
-    "id": "1794669805904",
-    "courseId": "1794669787202",
-    "courseName": "CSE",
-    "courseCode": "2101",
-    "day": "Saturday",
+    "id": "1794671606779",
+    "courseId": "1794671210685",
+    "courseName": "Digital Logic Design",
+    "courseCode": "CSE 2101",
+    "day": "Sunday",
     "startTime": "08:00",
+    "endTime": "08:50",
+    "room": "309"
+  },
+  {
+    "id": "1794671624354",
+    "courseId": "1794671287167",
+    "courseName": "Data Structures and Algorithm I",
+    "courseCode": "CSE 2103",
+    "day": "Sunday",
+    "startTime": "09:00",
     "endTime": "09:50",
+    "room": "309"
+  },
+  {
+    "id": "1794671639586",
+    "courseId": "1794671564423",
+    "courseName": "Vector Calculus, Linear Algebra and Complex Variable",
+    "courseCode": "MATH 2145",
+    "day": "Sunday",
+    "startTime": "10:00",
+    "endTime": "10:50",
+    "room": "309"
+  },
+  {
+    "id": "1794671667279",
+    "courseId": "1794670869479",
+    "courseName": "Software Development Project I",
+    "courseCode": "CSE 2100",
+    "day": "Sunday",
+    "startTime": "11:30",
+    "endTime": "14:20",
+    "room": "311"
+  },
+  {
+    "id": "1794671695490",
+    "courseId": "1794671409197",
+    "courseName": "Applied Statistics for Computer Science",
+    "courseCode": "CSE 2105",
+    "day": "Monday",
+    "startTime": "08:00",
+    "endTime": "08:50",
+    "room": "309"
+  },
+  {
+    "id": "1794671710709",
+    "courseId": "1794671524119",
+    "courseName": "Chemistry",
+    "courseCode": "CHEM 2133",
+    "day": "Monday",
+    "startTime": "09:00",
+    "endTime": "09:50",
+    "room": "309"
+  },
+  {
+    "id": "1794671912468",
+    "courseId": "1794671210685",
+    "courseName": "Digital Logic Design",
+    "courseCode": "CSE 2101",
+    "day": "Monday",
+    "startTime": "10:00",
+    "endTime": "10:50",
+    "room": "309"
+  },
+  {
+    "id": "1794671932358",
+    "courseId": "1794671564423",
+    "courseName": "Vector Calculus, Linear Algebra and Complex Variable",
+    "courseCode": "MATH 2145",
+    "day": "Monday",
+    "startTime": "11:30",
+    "endTime": "12:20",
+    "room": "309"
+  },
+  {
+    "id": "1794671945003",
+    "courseId": "1794671210685",
+    "courseName": "Digital Logic Design",
+    "courseCode": "CSE 2101",
+    "day": "Tuesday",
+    "startTime": "08:00",
+    "endTime": "08:50",
+    "room": "309"
+  },
+  {
+    "id": "1794671958231",
+    "courseId": "1794671564423",
+    "courseName": "Vector Calculus, Linear Algebra and Complex Variable",
+    "courseCode": "MATH 2145",
+    "day": "Tuesday",
+    "startTime": "09:00",
+    "endTime": "09:50",
+    "room": "309"
+  },
+  {
+    "id": "1794672002033",
+    "courseId": "1794671409197",
+    "courseName": "Applied Statistics for Computer Science",
+    "courseCode": "CSE 2105",
+    "day": "Tuesday",
+    "startTime": "10:00",
+    "endTime": "10:50",
+    "room": "309"
+  },
+  {
+    "id": "1794672020456",
+    "courseId": "1794671468563",
+    "courseName": "Object Oriented Programming Language II Sessional",
+    "courseCode": "CSE 2108",
+    "day": "Tuesday",
+    "startTime": "11:30",
+    "endTime": "14:20",
+    "room": "311"
+  },
+  {
+    "id": "1794672129240",
+    "courseId": "1794671287167",
+    "courseName": "Data Structures and Algorithm I",
+    "courseCode": "CSE 2103",
+    "day": "Wednesday",
+    "startTime": "08:00",
+    "endTime": "08:50",
+    "room": "309"
+  },
+  {
+    "id": "1794672165550",
+    "courseId": "1794671524119",
+    "courseName": "Chemistry",
+    "courseCode": "CHEM 2133",
+    "day": "Wednesday",
+    "startTime": "09:00",
+    "endTime": "09:50",
+    "room": "309"
+  },
+  {
+    "id": "1794672246931",
+    "courseId": "1794671353169",
+    "courseName": "Data Structures and Algorithm I Sessional",
+    "courseCode": "CSE 2104",
+    "day": "Wednesday",
+    "startTime": "11:30",
+    "endTime": "14:20",
+    "room": "302"
+  },
+  {
+    "id": "1794672290220",
+    "courseId": "1794671287167",
+    "courseName": "Data Structures and Algorithm I",
+    "courseCode": "CSE 2103",
+    "day": "Thursday",
+    "startTime": "08:00",
+    "endTime": "08:50",
+    "room": "309"
+  },
+  {
+    "id": "1794672305292",
+    "courseId": "1794671245087",
+    "courseName": "Digital Logic Design Sessional",
+    "courseCode": "CSE 2102",
+    "day": "Thursday",
+    "startTime": "11:30",
+    "endTime": "14:20",
+    "room": "307"
+  },
+  {
+    "id": "1794672327052",
+    "courseId": "1794671409197",
+    "courseName": "Applied Statistics for Computer Science",
+    "courseCode": "CSE 2105",
+    "day": "Thursday",
+    "startTime": "09:00",
+    "endTime": "09:50",
+    "room": "309"
+  },
+  {
+    "id": "1794672340567",
+    "courseId": "1794671524119",
+    "courseName": "Chemistry",
+    "courseCode": "CHEM 2133",
+    "day": "Thursday",
+    "startTime": "10:00",
+    "endTime": "10:50",
     "room": "309"
   }
 ]
