@@ -1,0 +1,12 @@
+{
+  "name": "student-academic-management-system",
+  "version": "1.0.0",
+  "description": "Student Academic Management System",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^45.3.1"
+  }
+}
