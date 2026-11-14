@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "1794669805904",
+    "courseId": "1794669787202",
+    "courseName": "CSE",
+    "courseCode": "2101",
+    "day": "Saturday",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "room": "309"
+  }
+]

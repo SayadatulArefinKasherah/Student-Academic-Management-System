@@ -584,3 +584,113 @@ footer {
         border: 1px solid #777 !important;
     }
 }
+
+/* Reusable modal forms */
+dialog {
+    border: 0;
+    border-radius: 14px;
+    padding: 0;
+    width: min(480px, 92vw);
+    margin: auto;
+    background: white;
+    color: #20283a;
+    box-shadow: 0 20px 70px #0005;
+}
+
+dialog::backdrop {
+    background: #10182899;
+}
+
+.modal-head,
+.modal-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 21px;
+    border-bottom: 1px solid #e7eaf1;
+}
+
+.modal-actions {
+    border: 0;
+    border-top: 1px solid #e7eaf1;
+    justify-content: flex-end;
+    gap: 9px;
+}
+
+.modal-head button {
+    font-size: 22px;
+    padding: 3px 10px;
+}
+
+.form-fields {
+    padding: 18px 22px;
+    display: grid;
+    gap: 12px;
+    max-height: 65vh;
+    overflow: auto;
+}
+
+.form-fields label {
+    display: grid;
+    gap: 6px;
+    color: #59657a;
+    font-size: 13px;
+}
+
+.form-fields input,
+.form-fields select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dce1ea;
+    border-radius: 7px;
+    background: white;
+    color: #20283a;
+}
+
+.dark dialog {
+    background: #1e293b;
+    color: #e8edf7;
+}
+
+.dark .form-fields input,
+.dark .form-fields select {
+    background: #263449;
+    color: white;
+    border-color: #475569;
+}
+
+.dark .modal-head,
+.dark .modal-actions {
+    border-color: #344258;
+}
+
+/* Fix modal input text visibility */
+dialog {
+    color: #ffffff;
+}
+
+dialog .form-fields label {
+    color: #cbd5e1;
+}
+
+dialog .form-fields input,
+dialog .form-fields select {
+    color: #ffffff !important;
+    background-color: #263449 !important;
+    border: 1px solid #475569;
+    caret-color: #ffffff;
+}
+
+dialog .form-fields input::placeholder {
+    color: #aab4c5;
+}
+
+dialog .form-fields input:focus,
+dialog .form-fields select:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 1px;
+}
+
+dialog .form-fields input[type="number"] {
+    color: #ffffff !important;
+}
